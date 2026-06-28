@@ -3,10 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge-1 Simple Landing Page with Html and CSS</title>
+    <title>Thesar Ramadhani — Frontend Developer</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Code Here -->
+
+        <header>
+        <nav>
+            <a href="#" class="nav-logo">TR</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1>Thesar Ramadhani</h1>
+            <p class="hero-tagline">Frontend Developer</p>
+            <p class="hero-desc">
+                I build clean, accessible, and responsive web interfaces
+                that feel good to use.
+            </p>
+            <a href="#projects" class="btn-primary">See My Work</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a frontend developer who enjoys turning ideas into
+                real, working interfaces. My focus is on writing clean
+                HTML, structured CSS, and readable JavaScript — building
+                things that work well and look intentional.
+            </p>
+            <p>
+                When I'm not coding, I like exploring UI references and
+                thinking about how small design decisions affect how
+                people experience a product.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">
+                    <h3>HTML</h3>
+                    <p>Semantic markup, accessibility, and document structure.</p>
+                </li>
+                <li class="skill-item">
+                    <h3>CSS</h3>
+                    <p>Flexbox, layout systems, typography, and responsive design.</p>
+                </li>
+                <li class="skill-item">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, event handling, and interactive UI logic.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ========== PROJECTS SECTION ========== -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="projects-list">
+
+                <li class="project-card">
+                    <article>
+                        <h3>Budget Tracker App</h3>
+                        <p>
+                            A simple web app to track daily income and expenses.
+                            Built with vanilla JavaScript and local storage to
+                            persist data between sessions.
+                        </p>
+                        <footer class="card-footer">
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="btn-secondary">View Project</a>
+                        </footer>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <h3>Recipe Finder</h3>
+                        <p>
+                            Search and browse recipes by ingredient using a
+                            public API. Includes a clean card layout with
+                            filtering by meal category.
+                        </p>
+                        <footer class="card-footer">
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="btn-secondary">View Project</a>
+                        </footer>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            This page itself — a responsive landing page
+                            built from scratch using semantic HTML and
+                            hand-written CSS, no frameworks.
+                        </p>
+                        <footer class="card-footer">
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <a href="#" class="btn-secondary">View Project</a>
+                        </footer>
+                    </article>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>
+                I'm currently open to new opportunities. Whether you have
+                a question or just want to say hi — feel free to reach out.
+            </p>
+            <address>
+                <a href="mailto:thesar@email.com" class="btn-primary">
+                    Say Hello
+                </a>
+            </address>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>&copy; 2025 Thesar Ramadhani. Built with HTML &amp; CSS.</p>
+    </footer>
+
 </body>
 </html>

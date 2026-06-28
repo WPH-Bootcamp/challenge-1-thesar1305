@@ -7,7 +7,7 @@ Halo teman-teman, selamat datang di assignment pertama kalian. Di minggu ini kit
 
 Tujuan saya memberikan assignment ini bukan sekadar agar kalian bisa menyelesaikan halaman web, tapi supaya kalian terbiasa dengan proses kerja seorang developer. Mulai dari membaca requirement, menulis struktur yang rapi, sampai mendokumentasikan progres kalian lewat commit Git.
 
-## Konteks Assignment
+## Konteks Assignmenta
 
 Kalian akan membuat satu halaman landing page sederhana. Tidak perlu kompleks, yang penting struktur dan dasarnya benar. Halaman ini akan menjadi pijakan pertama kalian dalam memahami bagaimana sebuah web dibangun dari nol.
 
