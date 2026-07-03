@@ -99,7 +99,7 @@ img {
    4. HEADER & NAV
    ============================================ */
 
-header  {
+header {
     position: sticky;
     top: 0;
     z-index: 100;
@@ -108,39 +108,38 @@ header  {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: var(--space-sm);
-
     max-width: var(--max-width);
     margin-inline: auto;
     padding-inline: var(--space-md);
     height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav__logo {
+.nav-logo {
     font-family: var(--font-display);
     font-size: var(--text-xl);
     font-weight: bold;
     color: var(--color-accent);
-    letter-spacing: 0.5px;
+    letter-spacing: 0.05em;
 }
 
-.nav_links {
+.nav-links {
     display: flex;
     gap: var(--space-md);
 }
 
-.nav_links a {
+.nav-links a {
     font-size: var(--text-sm);
     color: var(--color-muted);
-    letter-spacing: 0.4em;
+    letter-spacing: 0.04em;
     transition: color 0.2s ease;
 }
 
-.nav_links a:hover {
-    color: var(--color-accent);
+.nav-links a:hover {
+    color: var(--color-text);
 }
 
 /* ============================================
@@ -148,18 +147,18 @@ nav {
    ============================================ */
 
 #hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
     min-height: calc(100vh - 64px);
     max-width: var(--max-width);
     margin-inline: auto;
     padding-inline: var(--space-md);
     padding-block: var(--space-xl);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hero_greeting {
+.hero-greeting {
     font-size: var(--text-sm);
     color: var(--color-accent);
     margin-bottom: var(--space-xs);
@@ -179,8 +178,6 @@ nav {
 .hero-tagline {
     font-size: var(--text-2xl);
     color: var(--color-muted);
-    line-height: 1.5;
-    max-width: 600px;
     margin-bottom: var(--space-md);
 }
 
